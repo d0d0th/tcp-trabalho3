@@ -1,5 +1,5 @@
 # Fractal MandelBrot – Programação GPU
-## Técnicas de Computação Paralela
+### Técnicas de Computação Paralela
 Mestrado em Engenharia Informática e Sistemas de Informação
 <br />
 Universidade Lusófona de Humanidades e Tecnologias
@@ -15,7 +15,7 @@ O trabalho consiste no desenvolvimento de um programa em Java que gera um fracta
 
 Para este trabalho foi utilizado um computador com processador Intel core i5 10310U de 8 cores, 16GB de RAM e placa de vídeo Intel URD Graphics com 8 GB de RAM compartilhada. 
 
-### Resultados
+## Resultados
 A tabela a seguir apresenta um comparativo entre os resultados obtidos em cada técnica de programação para as diversas dimensões da matriz e limites de iterações:
 
 | **Dimensão e iterações** | **Sem Parelização (ms)** | **8 Threads (ms)** | **Divide and Conquer (ms)** | **Opencl (ms)** |
@@ -34,5 +34,5 @@ O gráfico a seguir apresenta um comparativo dos tempos de execução entre as 3
 
 ![Alt text](images/grafico.png "Optional title")
 
-### Conclusão
+## Conclusão
 Com este trabalho é possível concluir que a técnica de programação via GPU é a que traz um maior ganho no tempo de execução para cálculo dos elementos de grandes matrizes. Mesmo em um computador que não possui uma placa gráfica de grande desempenho, como no caso da utilizada neste trabalho, o ganho foi na ordem de 3x em relação a técnica Divide and Conquer.
