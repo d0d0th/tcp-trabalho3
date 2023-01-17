@@ -1,9 +1,12 @@
 # Fractal MandelBrot – Programação GPU
-##### Técnicas de Computação Paralela
-##### Mestrado em Engenharia Informática e Sistemas de Informação
-##### Universidade Lusófona de Humanidades e Tecnologias
-##### Aluno: Thiago Henrique dos Santos – Matrícula: 22100011
-##### Professor: Dr. José Rogado
+## Técnicas de Computação Paralela
+Mestrado em Engenharia Informática e Sistemas de Informação
+<br />
+Universidade Lusófona de Humanidades e Tecnologias
+<br />
+Aluno: Thiago Henrique dos Santos – Matrícula: 22100011
+<br />
+Professor: Dr. José Rogado
 
 O trabalho consiste no desenvolvimento de um programa em Java que gera um fractal Mandelbrot através da GPU e a análise de desempenho comparada com outras técnicas de paralelização estudadas nesta cadeira. A programação da GPU é feita por **opencl**, através da biblioteca **jocl**. 
 
