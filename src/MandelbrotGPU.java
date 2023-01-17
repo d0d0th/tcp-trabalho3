@@ -43,7 +43,7 @@ public class MandelbrotGPU extends JFrame {
     //shared memory
     private cl_mem imagePixelsMem;
 
-    private final String sourceFile = "C:\\Users\\thenrisa\\Documents\\Mestrado\\Lusofona\\Computacao paralela\\code\\Aula1\\Trabalho3\\src\\MandelbrotKernel.cl";
+    private final String sourceFile = "MandelbrotKernel.cl";
 
     public MandelbrotGPU() throws IOException {
         super("Mandelbrot Set");
