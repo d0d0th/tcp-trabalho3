@@ -14,7 +14,7 @@ import static org.jocl.CL.clCreateCommandQueue;
 
 
 /**
- * Mandelbrot sem parelização
+ * Mandelbrot opencl
  * @author  Thiago Henrique dos Santos
  */
 public class MandelbrotGPU extends JFrame {
